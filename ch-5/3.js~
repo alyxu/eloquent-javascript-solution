@@ -1,0 +1,10 @@
+function every(arr, pred){
+    for(let a of arr){
+        if(pred(a) === false){
+            console.log('false');
+            return false;
+        }
+        console.log(a);
+    }
+    return true;
+}

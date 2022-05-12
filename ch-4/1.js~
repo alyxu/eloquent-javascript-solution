@@ -1,0 +1,12 @@
+//the sum of ranges
+
+function range(start,end){
+    arr = [];
+    for(let i = start; i < end + 1; i++){
+        arr.push(i)
+    }
+    return arr;
+}
+
+
+

@@ -1,0 +1,8 @@
+//flattening
+
+function flatten(arrofarr){
+    arrofarr.reduce((acum, ele) => {return acum.concat(ele);}, []);
+}
+
+test = [[1,2,3],[4,5,5],[1,5,1]];
+console.log(flatten(test));
